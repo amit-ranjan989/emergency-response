@@ -1,0 +1,29 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0;
+}
+
+.image-section {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  background-color: #f7f7fb;
+}
+
+.bottom-bar {
+  background-color: #007bff;
+  color: rgb(15, 13, 19);
+  padding: 20px 0;
+}
+
+h2 {
+  margin-top: 20px;
+  color: black;
+}

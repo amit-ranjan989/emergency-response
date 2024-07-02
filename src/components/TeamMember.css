@@ -1,0 +1,26 @@
+.team-member {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  min-width: 200px;
+  background-color: white;
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+}
+
+.member-info {
+  margin-top: 10px;
+}
+
+.member-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.member-info p {
+  margin: 5px 0;
+}
