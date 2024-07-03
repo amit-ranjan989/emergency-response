@@ -1,29 +1,35 @@
 .App {
-  font-family: Arial, sans-serif;
   text-align: center;
+}
+
+.App-header {
+  background-color: #2a65dc;
   padding: 20px;
-}
-
-header {
-  background-color: #007bff;
   color: white;
-  padding: 20px 0;
+  margin-bottom: 20px;
 }
 
-.image-section {
+.team-container {
   display: flex;
-  overflow-x: auto;
-  padding: 10px;
-  background-color: #f7f7fb;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.bottom-bar {
-  background-color: #007bff;
-  color: rgb(15, 13, 19);
-  padding: 20px 0;
+.team-card {
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
 }
 
-h2 {
-  margin-top: 20px;
-  color: black;
+.team-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.team-card p {
+  margin: 5px 0;
 }
